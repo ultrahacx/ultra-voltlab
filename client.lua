@@ -254,13 +254,15 @@ end
 -- Load audio and texture stuff
 
 local requiredTxd = {'MPIsland_Voltage', 'MPIsland_Voltage_BG'}
-local requiredAudioBank = 'DLC_HEI4/DLC_HEI4_V_MG'
+local requiredAudioBank = 'DLC_HEI4\\DLC_HEI4_V_MG'
+local requiredAudioBank2 = 'DLC_HEI4\\DLC_HEI4_FH_MG'
 
 for i=1,#requiredTxd do
 	RequestStreamedTextureDict(requiredTxd[i], false)
 end
 
 RequestScriptAudioBank(requiredAudioBank, false, -1)
+RequestScriptAudioBank(requiredAudioBank2, false, -1)
 
 CreateThread(function()
 
