@@ -6,7 +6,7 @@ version '1.0.0'
 
 files {
     'html/*.js',
-    'html/*.html',
+    'html/screen.html',
     'html/*.gif',
     'html/*.png',
     'dlc_hei4/dlc_hei4_v_mg.awc',
