@@ -399,7 +399,7 @@ AddEventHandler("ultra-voltlab", function(time, returnFn)
 		isHackActive = true
 		
 		while isHackActive do 
-			Wait(7)
+			Wait(1)
 
 			drawSprite(
 				'MPIsland_Voltage_BG', 
