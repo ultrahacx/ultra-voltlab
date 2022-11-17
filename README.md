@@ -14,13 +14,13 @@ Voltlab hacking is one of the missions on the latest Cayo Perico DLC. Player has
 	-- 	   1: Hack successful
 	-- 	   2: Time ran out and hack failed
 	-- 	  -1: Error occured i.e. passed input or contents in config is wrong
-		if outcome == 0 then
+		if result == 0 then
 			print('Hack failed', reason)
-		elseif outcome == 1 then
+		elseif result == 1 then
 			print('Hack successful')
-		elseif outcome == 2 then
+		elseif result == 2 then
 			print('Timed out')
-		elseif outcome == -1 then
+		elseif result == -1 then
 			print('Error occured',reason)
 		end
 	end)
